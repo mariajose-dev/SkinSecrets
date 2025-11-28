@@ -21,9 +21,12 @@
 
 /* Card Styling */
 .card-img-top {
+    width: 100%;
     height: 200px;
     object-fit: cover;
+    display: block; /* prevents tiny gaps */
 }
+
 
 /* Floating Action Button (Optional) */
 .fab {
