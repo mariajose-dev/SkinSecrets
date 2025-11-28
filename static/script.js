@@ -136,9 +136,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (products.length === 0) {
             products = [
-                { id: 1, name: "Glow Serum", price: 25.99, description: "Radiant skin in a bottle.", imagename: "https://via.placeholder.com/300" },
-                { id: 2, name: "Hydrating Cream", price: 18.50, description: "Deep moisture for dry skin.", imagename: "https://via.placeholder.com/300" },
-                { id: 3, name: "Sunscreen SPF 50", price: 15.00, description: "Protect your skin from UV rays.", imagename: "https://via.placeholder.com/300" }
+                { id: 1, name: "Glow Serum", price: 250, description: "Radiant skin in a bottle.", imagename: "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2019_11/1417980/skin-serum-today-inline2-190315.jpg" },
+                { id: 2, name: "Hydrating Cream", price: 185, description: "Deep moisture for dry skin.", imagename: "https://img.freepik.com/free-photo/moisturizer-product-beauty-care-with-pink-tones_23-2151005538.jpg?semt=ais_hybrid&w=740&q=80" },
+                { id: 3, name: "Sunscreen SPF 50", price: 350, description: "Protect your skin from UV rays.", imagename: "https://cdn.thewirecutter.com/wp-content/media/2025/03/BEST-FACE-SUNSCREENS-2048px-7351.jpg?auto=webp&quality=75&width=1024" }
             ];
             localStorage.setItem('products', JSON.stringify(products));
         }
